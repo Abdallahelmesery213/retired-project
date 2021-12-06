@@ -1,0 +1,27 @@
+img {
+    display: block;
+    width: min-content;
+    height: 100%;
+    object-fit: cover;
+}
+h6 {
+    margin-top: 20px !important;
+    font-size: 20px;
+    color: #0C8938;
+}
+p{
+    font-size: 13px;
+    color: #858585;
+    line-height: 28px;
+}
+.btn{
+    border-radius: 29px !important;
+    border-color: #DCDCDC !important;
+    padding: 10px 30px !important;
+    font-size: 17px !important;
+    color: #707070 !important;
+}
+.btn:hover , .btn:active{
+    background-color: #0C8938;
+    color: #fff !important;
+}
