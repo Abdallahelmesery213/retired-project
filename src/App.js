@@ -1,5 +1,6 @@
 import HeaderMain from "./Components/HeaderMain/HeaderMain";
 import OurServices from "./Components/OurServices/OurServices";
+import Gallerys from './Components/Gallery/Gallery'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
         <HeaderMain />
         <OurServices />
+        <Gallerys />
     </div>
   );
 }

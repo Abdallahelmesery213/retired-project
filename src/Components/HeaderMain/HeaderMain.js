@@ -1,9 +1,5 @@
 import React from 'react';
 import './style.css'
-import InstIcon from '../../images/inst-icon.png';
-import TwitIcon from '../../images/twitter-icon.png';
-import WatsIcon from '../../images/wats-icon.png';
-import PhoneIcon from "../../images/phone.png";
 import Logo from '../../images/logo.png';
 import WhoareLogo from '../../images/who-are-logo.png'
 import {Dropdown} from'react-bootstrap'
@@ -19,18 +15,22 @@ function HeaderMain() {
                                 <ul className="list-inline">
                                         <li className="list-inline-item">
                                             <span className="bckgrond">
-                                                <img src={InstIcon} alt="InstIcon" className="img-fluid" />
+                                                <i className="fab fa-instagram"></i>
                                             </span>
                                         </li>
                                         <li className="list-inline-item">
-                                            <img src={TwitIcon} alt="TwitIcon" className="img-fluid" />
+                                            <span className="bckgrond">
+                                                <i className="fab fa-twitter"></i>
+                                            </span>
                                         </li>
                                         <li className="list-inline-item">
-                                            <img src={WatsIcon} alt="WatsIcon" className="img-fluid" />
+                                            <span className="bckgrond">
+                                                <i className="fab fa-whatsapp"></i>
+                                            </span>
                                         </li>
                                         <li className="list-inline-item">
                                         <span className="bckgrond">
-                                            <img src={PhoneIcon} alt="CallsIcon" className="img-fluid" />
+                                            <i className="fas fa-phone-alt"></i>
                                         </span>
                                         </li>
                                         <li className="list-inline-item">
@@ -124,8 +124,8 @@ function HeaderMain() {
                             </div>
                             <div className="col-md-6 col-sm-12 text-end">
                                 <div className="title2">
-                                    <h6>جمعية المتقاعدين</h6>
-                                    <h6>بمنطقة نجران</h6>
+                                    <h6> بجمعية المتقاعدين</h6>
+                                    <p className="h6">بمنطقة نجران</p>
                                 </div>
                                 <p>
                                 هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا
