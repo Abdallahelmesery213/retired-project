@@ -1,0 +1,40 @@
+.questions {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.questions .title{
+    text-align: center;
+    padding: 25px 15px;
+    border: 1px solid #ede5e5;
+    border-radius: 50%;
+    display: inline-flex;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 50px;
+}
+.questions .title h2 {
+    font-size: 25px;
+    color: #473900;
+    font-weight: bold;
+}
+.questions .title h2::after{
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 3px;
+    border-radius: 15px;
+    background-color: #0C8938;
+    bottom: 25px;
+    left: 37px;
+}
+.accordion{
+    margin-bottom: 15px !important;
+}
+ 
+.accordion-button::after {
+    background-image: url(../../images/plus-icon.PNG) !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../images/minus-icon.PNG) !important;
+}

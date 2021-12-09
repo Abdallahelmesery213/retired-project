@@ -89,7 +89,6 @@ function HeaderMain() {
                                     <li className="list-inline-item"><i className="fas fa-search"></i></li>
                                 </ul>
                             </div>
-
                         </div>
                     </div>
                 </div>

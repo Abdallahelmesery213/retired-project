@@ -5,7 +5,7 @@
     background-color: #473900;
     width: 100%;
     min-height: 60px;
-    color: #fff !important;
+    color: #fff ;
     font-size: 15px;
     font-weight: 700;
     display: flex;
@@ -55,10 +55,11 @@
     margin-left: 20px;
 }
 
-/* .nav2{
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
+.nav2{
+    display: flex;
+   min-height: 90px;
+   align-items: center;
+}
 .nav2 ul{
     display: contents;
     color: #707070;

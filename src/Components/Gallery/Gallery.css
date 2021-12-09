@@ -123,8 +123,8 @@
 .img-cont2 .vidLogo{
     display: block;
     z-index: 5;
-   margin-left: 33%;
-   margin-top: 33%;
+   margin-left: 35%;
+   margin-top: 30%;
     position: absolute;
     cursor: pointer;
 }

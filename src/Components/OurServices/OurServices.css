@@ -60,12 +60,12 @@ object-fit: cover;
 .swiper-button-prev {
     left: 45%;
     right: auto;
-    margin-top: 170px;
+    margin-top: 169px;
 }
 .swiper-button-next {
     right: 45%;
     left: auto;
-    margin-top: 170px;
+    margin-top: 169px;
 }
 /* .swiper-button-next:active,.swiper-button-next:focus {
     background-color: #0C8938;
