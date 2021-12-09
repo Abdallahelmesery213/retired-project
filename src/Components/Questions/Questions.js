@@ -10,7 +10,7 @@ const Questions = ()=>{
             <Accordion key={item.id}>
                 <Accordion.Item eventKey={item.id} >
                     <Accordion.Header> <span>{item.title}</span> </Accordion.Header>
-                    <Accordion.Body><p>{item.text}</p></Accordion.Body>
+                    <Accordion.Body><p className="text-end">{item.text}</p></Accordion.Body>
                 </Accordion.Item>
             </Accordion>
         )
@@ -19,11 +19,12 @@ const Questions = ()=>{
         <div className="questions ">
             <div className="container">
                 <div className="title mt-5">
-                    <h2>من نحن</h2>
+                    <h2>الأسئلة الشائعة</h2>
                 </div>
                 <div className="row">
                     <div className="col-md-5">
-                        <div >
+                        <div className='quest-logo'>
+                            <div className='border-img'></div>
                             <img src={QuestLogo} className="img-fluid" alt="quest-logo" />
                         </div>
                     </div>

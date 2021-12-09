@@ -2,7 +2,8 @@ import HeaderMain from "./Components/HeaderMain/HeaderMain";
 import OurServices from "./Components/OurServices/OurServices";
 import Gallerys from './Components/Gallery/Gallery';
 import Questions from "./Components/Questions/Questions";
-import './App.css'
+import './App.css';
+import Mail from "./Components/Mail/Mail";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <OurServices />
         <Gallerys />
         <Questions />
+        <Mail />
     </div>
   );
 }

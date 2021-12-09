@@ -12,6 +12,9 @@
     position: relative;
     margin-bottom: 25px;
     margin-top: 25px;
+    background-image: url(../../images//logo-title.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .our-services .title h2 {
     font-size: 25px;

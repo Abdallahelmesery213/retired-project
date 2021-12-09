@@ -12,6 +12,9 @@
     transform: translateX(-50%);
     position: relative;
     margin-bottom: 50px;
+    background-image: url(../../images//logo-title.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .my-gallery  .title h2 {
     font-size: 25px;
