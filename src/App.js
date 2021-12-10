@@ -4,6 +4,7 @@ import Gallerys from './Components/Gallery/Gallery';
 import Questions from "./Components/Questions/Questions";
 import './App.css';
 import Mail from "./Components/Mail/Mail";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Gallerys />
         <Questions />
         <Mail />
+        <Footer />
     </div>
   );
 }
