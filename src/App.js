@@ -1,17 +1,19 @@
 import './App.css';
-import MainPage from './Pages/MainPage';
-// import {BrowserRouter,Route,Switch} from 'react-router-dom';
-// import Test1 from './Components/test1';
+// import MainPage from './Pages/Home';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import About from './Pages/About';
+import Home from './Pages/Home';
 function App() {
   return (
     <div className="App">
-        <MainPage />
-        {/* <BrowserRouter>
-            <Switch>
-                <Route path='/' component={MainPage} />
-                <Route path='/test1' component={Test1}/>
-            </Switch>
-        </BrowserRouter> */}
+        {/* <MainPage /> */}
+        <BrowserRouter>
+            <Routes>
+                <Route exact path='/' element={<Home />} />
+                <Route exact path='/about' element={<About />} />
+                
+            </Routes>
+        </BrowserRouter>
     </div>
   );
 }

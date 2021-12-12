@@ -6,7 +6,7 @@ import Questions from "../Components/Questions/Questions";
 import Mail from "../Components/Mail/Mail";
 import Footer from "../Components/Footer/Footer";
 
-const MainPage = () => {
+const Home = () => {
     return (
         <React.Fragment>
             <HeaderMain />
@@ -18,4 +18,4 @@ const MainPage = () => {
         </React.Fragment>
     )
 }
-export default MainPage ;
+export default Home ;
