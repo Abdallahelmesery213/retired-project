@@ -1,20 +1,17 @@
-import HeaderMain from "./Components/HeaderMain/HeaderMain";
-import OurServices from "./Components/OurServices/OurServices";
-import Gallerys from './Components/Gallery/Gallery';
-import Questions from "./Components/Questions/Questions";
 import './App.css';
-import Mail from "./Components/Mail/Mail";
-import Footer from "./Components/Footer/Footer";
-
+import MainPage from './Pages/MainPage';
+// import {BrowserRouter,Route,Switch} from 'react-router-dom';
+// import Test1 from './Components/test1';
 function App() {
   return (
     <div className="App">
-        <HeaderMain />
-        <OurServices />
-        <Gallerys />
-        <Questions />
-        <Mail />
-        <Footer />
+        <MainPage />
+        {/* <BrowserRouter>
+            <Switch>
+                <Route path='/' component={MainPage} />
+                <Route path='/test1' component={Test1}/>
+            </Switch>
+        </BrowserRouter> */}
     </div>
   );
 }

@@ -1,8 +1,9 @@
 import React from 'react';
-import './style.css'
+import './style.css';
 import Logo from '../../images/logo.png';
-import WhoareLogo from '../../images/who-are-logo.png'
-import {Dropdown} from'react-bootstrap'
+import WhoareLogo from '../../images/who-are-logo.png';
+import {Dropdown} from'react-bootstrap';
+// import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 
 function HeaderMain() {
     return (
@@ -60,12 +61,16 @@ function HeaderMain() {
                         </div>
                     </div>
                 </div>
+
+                
                 <div className="nav2" dir="rtl">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6  text-md-end text-center right" >
                                 <ul className="list-inline ">
-                                    <li className="list-inline-item">الرئيسية</li>
+                                    <li className="list-inline-item">
+                                        الرئيسية 
+                                    </li>
                                     <li className="list-inline-item">من نحن</li>
                                     <li className="list-inline-item">الخدمات</li>
                                     <li className="list-inline-item">
@@ -92,6 +97,8 @@ function HeaderMain() {
                         </div>
                     </div>
                 </div>
+                
+                
                 <div className="nav3">
                     <div className="overlay"></div>
                     <div className="logo">

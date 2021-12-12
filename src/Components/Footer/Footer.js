@@ -1,23 +1,21 @@
 import React from 'react';
 import './Footer.css';
 import FooterLogo from '../../images/footer-logo.png';
-import BackToTop from 'react-back-to-top-button';
+// import BackToTop from 'react-back-to-top-button';
 const Footer = () => {
-    
+    let myScrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
     return (
         <div className='all-footer'>
             <div className='my-footer'>
                 <div className='overlay'></div>
-                    <BackToTop
-                        showOnScrollUp
-                        speed={1500}
-                        easing="easeInOutQuint"
-                        >
-                        <div className='btn-top' >
-                            <i className="fas fa-chevron-circle-up"></i>
-                        </div>
-                    </BackToTop>
-                
+                    <div className='btn-top' onClick={myScrollTop} >
+                        <i className="fas fa-chevron-circle-up"></i>
+                    </div>
                 <div className='my-content'>
                     <div className='container'>
                         <div className='my-nav'>
