@@ -82,7 +82,7 @@
     font-size: 15px;
 }
 .my-footer .btn-top{
-    top: -39px;
+    top: -46px;
     margin-left: 50%;
     position: absolute;
 }
@@ -92,7 +92,7 @@
     }
 }
 .my-footer .btn-top i {
-    font-size: 60px;
+    font-size: 70px;
     color: #0C8938;
 }
 .my-footer .btn-top i:hover {

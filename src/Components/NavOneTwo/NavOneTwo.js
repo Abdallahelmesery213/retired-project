@@ -68,9 +68,11 @@ const NavOneTwo = () => {
                                         <Link to='/' >الرئيسية</Link>
                                     </li>
                                     <li className="list-inline-item">
-                                        <Link to='about'> من نحن</Link>
+                                        <Link to='/about'> من نحن</Link>
                                     </li>
-                                    <li className="list-inline-item">الخدمات</li>
+                                    <li className="list-inline-item">
+                                        <Link to='/services'>الخدمات</Link>
+                                    </li>
                                     <li className="list-inline-item">
                                         <Dropdown>
                                             <Dropdown.Toggle  id="dropdown-basic">

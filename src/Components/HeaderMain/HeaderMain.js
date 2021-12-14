@@ -49,7 +49,7 @@ function HeaderMain() {
                                 النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق .
                                 </p>
                                 <button className="btn">
-                                    <Link to='about'>اقرء المزيد</Link>
+                                    <Link to='/about'>اقرء المزيد</Link>
                                 </button>
                             </div>
                         </div>

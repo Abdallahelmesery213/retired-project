@@ -5,11 +5,11 @@ import App from './App';
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import "../node_modules/@fortawesome/fontawesome-free/css/all.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { BrowserRouter } from "react-router-dom";
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

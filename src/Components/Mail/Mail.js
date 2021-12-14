@@ -3,7 +3,7 @@ import './Mail.css';
 import { Container , Row , Col } from 'react-bootstrap';
 const Mail = ()=> {
     return (
-        <div>
+        <div className='my-mail'>
             <Container>
                 <Row>
                     <Col className='text-center'>

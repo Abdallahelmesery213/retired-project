@@ -73,10 +73,10 @@
 .nav2 .right ul li a:hover{
     color: #0C8938;
 }
-.nav2 .left{
+/* .nav2 .left{
     margin-top: 30px !important;
     margin-bottom: 15px;
-}
+} */
 .nav2 .left ul li {
     margin-right: 25px;
 }

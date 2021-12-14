@@ -1,4 +1,8 @@
-.title{
+.my-mail {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.my-mail .title{
     text-align: center;
     padding: 50px 15px;
     border: 1px solid #ede5e5;
@@ -10,12 +14,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
- .title h2 {
+.my-mail .title h2 {
     font-size: 25px;
     color: #473900;
     font-weight: bold;
 }
- .title h2::after{
+.my-mail .title h2::after{
     position: absolute;
     content: '';
     width: 22px;
@@ -25,7 +29,7 @@
     bottom: 39px;
     left: 67px;
 }
-.my-input{
+.my-mail .my-input{
     width: 50%;
     display: flex;
     margin: auto;
@@ -36,19 +40,19 @@
     transition: all .1s ease-in-out ;
 }
 @media only screen and (max-width: 992px) {
-    .my-input{
+    .my-mail .my-input{
         width: 70%;
     }
 }
 @media only screen and (max-width: 768px) {
-    .my-input{
+    .my-mail .my-input{
         width: 100%;
     }
 }
-.my-input:hover{
+.my-mail .my-input:hover{
     border: 2px solid #00BCD4;
 }
-.my-input input{
+.my-mail .my-input input{
     position: absolute;
     width: 75%;
     height: 98%;
@@ -58,24 +62,24 @@
     border: none ;
     outline: none;
 }
-input:focus{
+.my-mail input:focus{
     border-color: #fff !important;
 }
-.my-input .btn {
+.my-mail .my-input .btn {
     position: absolute;
     width: 19%;
     color: #fff !important;
     border-radius: 28px !important;
     height: 100%;
     left: 0;
-    top: -20px;
+    top: 0px;
     bottom: 0;
 }
-::placeholder{
+.my-mail ::placeholder{
     text-align: right;
     color: #C2C2C2 !important;
 }
-.form-control:focus {
+.my-mail .form-control:focus {
     border-color: #6265e4 !important;
     box-shadow: 0 0 5px rgb(255, 255, 255) !important;
 }
