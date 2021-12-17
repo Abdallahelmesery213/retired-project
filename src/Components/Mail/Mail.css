@@ -1,6 +1,6 @@
 .my-mail {
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 .my-mail .title{
     text-align: center;
@@ -38,6 +38,9 @@
     border-radius: 28px;
     /* border: 2px solid #00BCD4; */
     transition: all .1s ease-in-out ;
+    -webkit-box-shadow:0px 15px 30px #0C8938;
+    -moz-box-shadow:0px 15px 30px #0C8938;
+    box-shadow:0px 15px 30px #0C8938;
 }
 @media only screen and (max-width: 992px) {
     .my-mail .my-input{
@@ -49,7 +52,7 @@
         width: 100%;
     }
 }
-.my-mail .my-input:hover{
+.my-mail .my-input:hover , .my-mail .my-input:active{
     border: 2px solid #00BCD4;
 }
 .my-mail .my-input input{
