@@ -66,11 +66,11 @@
 .nav2 .right ul li {
     margin-left: 25px;
 }
-.nav2 .right ul li a{
+.nav2 ul li a{
     text-decoration: none;
     color: #707070  ;
 }
-.nav2 .right ul li a:hover{
+.nav2 ul li a:hover{
     color: #0C8938;
 }
 /* .nav2 .left{

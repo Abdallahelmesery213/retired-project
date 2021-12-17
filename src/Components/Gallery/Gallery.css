@@ -67,6 +67,7 @@
     width: 100%;
     height: auto;
     position: absolute;
+    cursor: pointer;
 }
 .overlay p {
     font-size: 15px;

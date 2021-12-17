@@ -79,8 +79,8 @@ const NavOneTwo = () => {
                                                 الجاليرى    
                                             </Dropdown.Toggle>
                                             <Dropdown.Menu>
-                                                <Dropdown.Item href="#/action-1">الجاليرى/ معرض الصور</Dropdown.Item>
-                                                <Dropdown.Item href="#/action-2">الجاليرى/ معرض الصور</Dropdown.Item>
+                                                <Dropdown.Item href="/images">الجاليرى/ معرض الصور</Dropdown.Item>
+                                                <Dropdown.Item href="/videos">الجاليرى/ معرض الصور</Dropdown.Item>
                                             </Dropdown.Menu>
                                         </Dropdown>
                                     </li>
@@ -88,9 +88,15 @@ const NavOneTwo = () => {
                             </div>
                             <div className="col-md-6 text-md-start text-center left">
                                 <ul className="list-inline">
-                                    <li className="list-inline-item">الأسئلة الشائعة</li>
-                                    <li className="list-inline-item">الشروط والاحكام</li>
-                                    <li className="list-inline-item">تواصل معنا</li>
+                                    <li className="list-inline-item">
+                                        <Link to='/conditionsQuestions'>الأسئلة الشائعة</Link>
+                                    </li>
+                                    <li className="list-inline-item">
+                                        <Link to='/conditions'>الشروط والاحكام</Link>
+                                    </li>
+                                    <li className="list-inline-item">
+                                        <Link to='/contactUs'>تواصل معنا</Link>
+                                    </li>
                                     <li className="list-inline-item"><i className="fas fa-search"></i></li>
                                 </ul>
                             </div>
