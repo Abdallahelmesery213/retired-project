@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import FooterLogo from '../../images/footer-logo.png';
+import { Link } from 'react-router-dom';
 // import BackToTop from 'react-back-to-top-button';
 const Footer = () => {
     let myScrollTop = () => {
@@ -20,13 +21,27 @@ const Footer = () => {
                     <div className='container'>
                         <div className='my-nav'>
                             <ul className='list-inline' dir='rtl'>
-                                <li className='list-inline-item'>الرئيسية </li>
-                                <li className='list-inline-item'>من نحن </li>
-                                <li className='list-inline-item'>الخدمات </li>
-                                <li className='list-inline-item'>المعرض </li>
-                                <li className='list-inline-item'>الأسئلة الشائعة </li>
-                                <li className='list-inline-item'>الشروط والاحكام </li>
-                                <li className='list-inline-item'>تواصل معنا </li>
+                                <li className='list-inline-item'>
+                                    <Link to='/' >الرئيسية</Link>
+                                </li>
+                                <li className='list-inline-item'>
+                                    <Link to='/about'> من نحن</Link>
+                                </li>
+                                <li className="list-inline-item">
+                                    <Link to='/services'>الخدمات</Link>
+                                </li>
+                                <li className='list-inline-item'>
+                                    <Link to='/images'>المعرض</Link>
+                                </li>
+                                <li className="list-inline-item">
+                                    <Link to='/conditionsQuestions'>الأسئلة الشائعة</Link>
+                                </li>
+                                <li className="list-inline-item">
+                                    <Link to='/conditions'>الشروط والاحكام</Link>
+                                </li>
+                                <li className="list-inline-item">
+                                    <Link to='/contactUs'>تواصل معنا</Link>
+                                </li>
                             </ul>
                         </div> 
                         <div className='my-logo'>
