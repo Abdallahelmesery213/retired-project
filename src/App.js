@@ -12,8 +12,6 @@ import ContactUs from './Pages/ContactUs';
 function App() {
   return (
     <div className="App">
-        
-        
             <Routes>
                 <Route  path='/' element={<Home />} />
                 <Route  path='about' element={<About />} />
@@ -24,9 +22,7 @@ function App() {
                 <Route  path='conditionsQuestions' element={<CondQuestions />} />
                 <Route  path='conditions' element={<Conditions />} />
                 <Route  path='contactUs' element={<ContactUs />} />
-                
             </Routes>
-        
     </div>
   );
 }
