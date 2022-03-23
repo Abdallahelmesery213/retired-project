@@ -65,7 +65,7 @@ const NavOneTwo = () => {
                             <div className="col-md-6  text-md-end text-center right" >
                                 <ul className="list-inline ">
                                     <li className="list-inline-item">
-                                        <NavLink to='home' >الرئيسية</NavLink>
+                                        <NavLink to='/' >الرئيسية</NavLink>
                                     </li>
                                     <li className="list-inline-item">
                                         <NavLink to='/about'> من نحن</NavLink>
