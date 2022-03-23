@@ -9,20 +9,22 @@ import Videos from './Pages/Videos';
 import CondQuestions from './Pages/Questions2.js';
 import Conditions from './Pages/Conditions';
 import ContactUs from './Pages/ContactUs';
+import NotFound from './Components/NotFound';
 function App() {
   return (
     <div className="App">
-            <Routes>
-                <Route  path='/' element={<Home />} />
-                <Route  path='about' element={<About />} />
-                <Route  path='services' element={<Services />} />
-                <Route  path='serviceName' element={<ServiceName />} />
-                <Route  path='images' element={<Images />} />
-                <Route  path='videos' element={<Videos />} />
-                <Route  path='conditionsQuestions' element={<CondQuestions />} />
-                <Route  path='conditions' element={<Conditions />} />
-                <Route  path='contactUs' element={<ContactUs />} />
-            </Routes>
+      <Routes>
+        <Route  path="/" element={<Home />} />
+        <Route  path='about' element={<About />} />
+        <Route  path='services' element={<Services />} />
+        <Route  path='serviceName' element={<ServiceName />} />
+        <Route  path='images' element={<Images />} />
+        <Route  path='videos' element={<Videos />} />
+        <Route  path='conditionsQuestions' element={<CondQuestions />} />
+        <Route  path='conditions' element={<Conditions />} />
+        <Route  path='contactUs' element={<ContactUs />} />
+        <Route  path='*' element={<NotFound />} />
+      </Routes>
     </div>
   );
 }

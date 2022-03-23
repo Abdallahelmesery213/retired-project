@@ -1,7 +1,7 @@
 import React from 'react';
 import './NavOneTwo.css';
 import {Dropdown} from'react-bootstrap';
-import {Link} from "react-router-dom";
+import { NavLink} from "react-router-dom";
 
 const NavOneTwo = () => {
     return (
@@ -39,7 +39,7 @@ const NavOneTwo = () => {
                             <div className="col-md-6 text-md-end text-center right">
                                 <ul className="list-inline">
                                     <li className="list-inline-item">
-                                    <span className="list">
+                                        <span className="list">
                                             <span className="bordr">
                                                 <p className="d-inline">تسجيل جديد</p>
                                                 <i className="fas fa-user-plus ms-3"></i>
@@ -65,13 +65,13 @@ const NavOneTwo = () => {
                             <div className="col-md-6  text-md-end text-center right" >
                                 <ul className="list-inline ">
                                     <li className="list-inline-item">
-                                        <Link to='/' >الرئيسية</Link>
+                                        <NavLink to='/' >الرئيسية</NavLink>
                                     </li>
                                     <li className="list-inline-item">
-                                        <Link to='/about'> من نحن</Link>
+                                        <NavLink to='/about'> من نحن</NavLink>
                                     </li>
                                     <li className="list-inline-item">
-                                        <Link to='/services'>الخدمات</Link>
+                                        <NavLink to='/services'>الخدمات</NavLink>
                                     </li>
                                     <li className="list-inline-item">
                                         <Dropdown>
@@ -79,8 +79,12 @@ const NavOneTwo = () => {
                                                 الجاليرى    
                                             </Dropdown.Toggle>
                                             <Dropdown.Menu>
-                                                <Dropdown.Item href="/images">الجاليرى/ معرض الصور</Dropdown.Item>
-                                                <Dropdown.Item href="/videos">الجاليرى/ معرض الصور</Dropdown.Item>
+                                                <Dropdown.Item >
+                                                    <NavLink to="/images">الجاليرى/ معرض الصور</NavLink>
+                                                </Dropdown.Item>
+                                                <Dropdown.Item >
+                                                    <NavLink to="/videos">الجاليرى/ معرض الفيديو</NavLink>
+                                                </Dropdown.Item>
                                             </Dropdown.Menu>
                                         </Dropdown>
                                     </li>
@@ -89,13 +93,13 @@ const NavOneTwo = () => {
                             <div className="col-md-6 text-md-start text-center left">
                                 <ul className="list-inline">
                                     <li className="list-inline-item">
-                                        <Link to='/conditionsQuestions'>الأسئلة الشائعة</Link>
+                                        <NavLink to='/conditionsQuestions'>الأسئلة الشائعة</NavLink>
                                     </li>
                                     <li className="list-inline-item">
-                                        <Link to='/conditions'>الشروط والاحكام</Link>
+                                        <NavLink to='/conditions'>الشروط والاحكام</NavLink>
                                     </li>
                                     <li className="list-inline-item">
-                                        <Link to='/contactUs'>تواصل معنا</Link>
+                                        <NavLink to='/contactUs'>تواصل معنا</NavLink>
                                     </li>
                                     <li className="list-inline-item"><i className="fas fa-search"></i></li>
                                 </ul>

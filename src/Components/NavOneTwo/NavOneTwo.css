@@ -70,6 +70,10 @@
     text-decoration: none;
     color: #707070  ;
 }
+.nav2 ul li a.active{
+    color: #0C8938;
+    font-weight: bold;
+}
 .nav2 ul li a:hover{
     color: #0C8938;
 }
